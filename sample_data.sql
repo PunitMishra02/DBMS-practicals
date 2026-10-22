@@ -49,9 +49,7 @@ INSERT INTO STUDENT (Rollno, Name, Dateofbirth) VALUES
     ('Z2008','CS01','2019-07-21'), ('Y2009','EN03','2019-08-02'),
 
     ('X2010','MA02','2019-07-22'), ('X2010','CS02','2019-07-23');
-   -- Note: Z2004 (Arjun Nair) has NO admission, and PH01 (Physics) has NO students.
-
-   -- These deliberate gaps make the LEFT JOIN and NOT EXISTS queries meaningful.
+   
 
 
    INSERT INTO ENROLLMENT (Rollno, SocID, Dateofenrollment) VALUES
@@ -66,4 +64,4 @@ INSERT INTO STUDENT (Rollno, Name, Dateofbirth) VALUES
 
     ('Y2009','S01','2019-08-19'), ('X2010','S03','2019-08-20');
 
-   -- Note: S05 (Literary) has NO members.
+   
