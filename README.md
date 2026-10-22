@@ -4,7 +4,7 @@
 - `schema.sql` — five related tables and constraints
 - `sample_data.sql` — sample students, courses, societies, admissions and enrollments
 - `practical_queries.sql` — 25 prescribed practical exercises (including updates and ALTER statements)
-- `administration.sql
+- `database administration commands`
 
 
 ## Database relationships
